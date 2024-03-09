@@ -2,43 +2,25 @@
 
 </script>
 
-<main>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <div class="ueberschrift">    
-    <p>Südstadt-Volleyball</p>
-  </div>
-
-  <div class="unteruebschrift">
-      <p>Herzlichen Willkommen auf der Website der Nethüppers und noch Sturmball!</p>
-  </div>
-
-    <div class="explore">
-    <a href="/teams" class="button">Erfahre mehr</a>
-  </div>
-
-
-</main>
-
 <style>
-  .ueberschrift {
+  .headline {
     font-size: 5vw;
     text-align: center;
     line-height: 1;
     font-weight: 700;
-    position: fixed;
+    position: absolute; /* Changed from fixed to absolute */
     left: 50%;
     top: 20%;
     transform: translate(-50%, -50%);
     letter-spacing: 0.02em;
     text-shadow: 2px 8px 6px #00000033, 0px -5px 35px #FFFFFF4D;
     color: #c79f50;
-
   }
 
-  .unteruebschrift {
+  .small_headline {
     font-size: 3vw;
     text-align: center;
-    position: fixed;
+    position: absolute; /* Changed from fixed to absolute */
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
@@ -47,22 +29,39 @@
   }
   
   .explore {
-  text-align: center;
-  margin-top: 30%; 
+    text-align: center;
+    margin-top: 50vh;
   }
 
-.button {
-  display: inline-block;
-  padding: 15px 30px;
-  font-size: 20px;
-  background-color: #c79f50;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #c79f50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
   }
 
-.button:hover {
-  background-color: #a67a36;
+  .button:hover {
+    background-color: #a67a36;
   }
 </style>
+
+<main>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <a href="/teams" class="outline-link">
+    <div class="headline">
+      <p>Südstadt-Volleyball</p>
+    </div>
+
+    <div class="small_headline">
+      <p>Herzlichen Willkommen auf der Website der Nethüppers und noch Sturmball!</p>
+    </div>
+
+    <div class="explore">
+      <a href="/teams" class="button">Erfahre mehr</a>
+    </div>
+  </a>
+</main>

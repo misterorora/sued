@@ -1,4 +1,6 @@
 body {
-    background-color: #faf0e6;
+    background-image: url('$lib/assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Trebuchet MS', sans-serif;
 }
