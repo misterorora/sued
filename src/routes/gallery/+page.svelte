@@ -50,8 +50,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
 }
 
