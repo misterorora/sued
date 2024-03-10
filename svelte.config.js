@@ -9,6 +9,10 @@ const config = {
 		adapter: adapter({
 		fallback: '200.html' // Could be different depending on host
 		})
+	vite: {
+      optimizeDeps: {
+        include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']
+      }
 	}
 };
 

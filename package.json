@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bigger-picture": "^1.1.15"
+		"bigger-picture": "^1.1.15",
+		"svelte-carousel": "^1.0.25"
 	}
 }

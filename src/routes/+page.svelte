@@ -57,7 +57,7 @@
     </div>
 
     <div class="small_headline">
-      <p>Herzlichen Willkommen auf der Website der Nethüppers und noch Sturmball!</p>
+      <p>Herzlichen willkommen auf der Website der Nethüppers und noch Sturmball!</p>
     </div>
 
     <div class="explore">

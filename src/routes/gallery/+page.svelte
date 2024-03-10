@@ -1,33 +1,58 @@
 <script>
-
+  import Carousel from 'svelte-carousel';
+  import image1 from "$lib/assets/1.jpg";
+  import image2 from "$lib/assets/2.jpg";
   import image3 from "$lib/assets/3.jpg";
+  import image4 from "$lib/assets/4.jpg";
 
-  import image5 from "$lib/assets/5.jpg";
+  let imageGallery = [
+    image1,
+    image2,
+    image3,
+    image4,
+  ];
 </script>
 
 <main>
-  <h1>Gallery</h1>
-
-  <div class="image_grid">
-
-    <img src="{image3}" alt="Image 3">
-
-    <img src="{image5}" alt="Image 5">
-  </div>
+  <div class="adjust">
+  <Carousel autoplay="2000">
+      {#each imageGallery as src, imageIndex (src)}
+        <div class="img-container">
+            <img src={src} alt="Image" />
+        </div>
+      {/each}
+  </Carousel>
+</div>
 </main>
 
 <style>
-  .image_grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-
-  .image_grid img {
+  .img-container {
     width: 100%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
+
+  .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+.adjust {
+  width: 65%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 5px;
+}
+
 </style>
-
-
-<!-- https://vadimkorr.github.io/svelte-carousel/ -->
