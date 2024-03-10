@@ -43,10 +43,12 @@
 
     .standard:hover {
         background-color: #BEDAEF; 
+        transition: background-color 0.3s ease;
     }
 
     .home:hover {
         background-color: #BEDAEF;
+        transition: background-color 0.3s ease;
     }
 
     .member {
