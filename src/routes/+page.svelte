@@ -1,6 +1,23 @@
-<script>
+<!-- Homepage -->
 
+<script>
+  //empty
 </script>
+
+<main>
+    <a href="/teams" class="outline-link">
+    <div class="headline">
+      <p>Südstadt-Volleyball</p>
+    </div>
+    <div class="small_headline">
+      <p>Herzlichen willkommen auf der Website der Nethüppers und noch Sturmball!</p>
+    </div>
+
+    <div class="explore">
+      <a href="/teams" class="button">Erfahre mehr</a>   <!-- explore button, redirect to teams page -->
+    </div>
+  </a>
+</main>
 
 <style>
   .headline {
@@ -8,7 +25,7 @@
     text-align: center;
     line-height: 1;
     font-weight: 700;
-    position: absolute; /* Changed from fixed to absolute */
+    position: absolute; 
     left: 50%;
     top: 20%;
     transform: translate(-50%, -50%);
@@ -20,7 +37,7 @@
   .small_headline {
     font-size: 3vw;
     text-align: center;
-    position: absolute; /* Changed from fixed to absolute */
+    position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
@@ -48,20 +65,3 @@
     background-color: #a67a36;
   }
 </style>
-
-<main>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <a href="/teams" class="outline-link">
-    <div class="headline">
-      <p>Südstadt-Volleyball</p>
-    </div>
-
-    <div class="small_headline">
-      <p>Herzlichen willkommen auf der Website der Nethüppers und noch Sturmball!</p>
-    </div>
-
-    <div class="explore">
-      <a href="/teams" class="button">Erfahre mehr</a>
-    </div>
-  </a>
-</main>

@@ -1,6 +1,17 @@
+<!-- Footer Navbar Container -->
+
 <script>
-    // Footer component
+    // empty
 </script>
+
+<div class="footer">        <!--adds footer to bottom right of the page -->
+    <nav>
+        <ul>
+            <li><a href="/impressum">Impressum</a></li>
+            <li><a href="/contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</div>
 
 <style>
     .footer {
@@ -40,14 +51,3 @@
         transition: background-color 0.3s ease;
     }
 </style>
-
-
-
-<div class="footer">
-    <nav>
-        <ul>
-            <li><a href="/impressum">Impressum</a></li>
-            <li><a href="/contact">Kontakt</a></li>
-        </ul>
-    </nav>
-</div>

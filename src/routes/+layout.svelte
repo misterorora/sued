@@ -1,3 +1,5 @@
+<!-- applys all effects on pages, adds title, adds transition to all sites, adds footer and header -->
+
 <title>Südstadt-Volleyball</title>
 <script>
     import { fade } from 'svelte/transition';   /*used for transitions at SPA´s */

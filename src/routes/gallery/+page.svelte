@@ -1,11 +1,13 @@
+<!-- Gallerypage --> 
+
 <script>
-  import Carousel from 'svelte-carousel';
-  import image1 from "$lib/assets/1.jpg";
+  import Carousel from 'svelte-carousel'; //imports Carousel package into file. External sveltekit package
+  import image1 from "$lib/assets/1.jpg"; //imports all images used in the galery
   import image2 from "$lib/assets/2.jpg";
   import image3 from "$lib/assets/3.jpg";
   import image4 from "$lib/assets/4.jpg";
 
-  let imageGallery = [
+  let imageGallery = [                    //pushes to array
     image1,
     image2,
     image3,
@@ -15,8 +17,8 @@
 
 <main>
   <div class="adjust">
-  <Carousel autoplay="2000">
-      {#each imageGallery as src, imageIndex (src)}
+  <Carousel autoplay="2000">                               <!-- Carousel Gallery, autplays images after 2000ms -->
+      {#each imageGallery as src, imageIndex (src)}        <!-- iterate through array -->
         <div class="img-container">
             <img src={src} alt="Image" />
         </div>
