@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"bigger-picture": "^1.1.15",
-		"svelte-carousel": "^1.0.25"
+		"svelte-carousel": "^1.0.25",
+		"svelte-forms-lib": "^2.0.1"
 	}
 }

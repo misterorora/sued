@@ -20,7 +20,7 @@
   <Carousel autoplay="2000">                               <!-- Carousel Gallery, autplays images after 2000ms -->
       {#each imageGallery as src, imageIndex (src)}        <!-- iterate through array -->
         <div class="img-container">
-            <img src={src} alt="Image" />
+            <img src={src} alt="" />
         </div>
       {/each}
   </Carousel>
