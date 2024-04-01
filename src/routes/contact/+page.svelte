@@ -23,6 +23,10 @@
     <textarea id="message" rows="5" bind:value={formData.message}></textarea><br>
     <button type="submit">Abschicken</button>
   </form>
+
+  <div class="disclaimer">
+      <p>Nach Betätigung von Abschicken wird ihr eigenes Emailprogramm geöffnet und automatisch gefüllt!</p>
+  </div>
 </main>
 
 
@@ -39,14 +43,26 @@
     letter-spacing: 0.02em;
     text-shadow: 2px 8px 6px #00000033, 0px -5px 35px #FFFFFF4D;
     color: #c79f50;
+
   }
 
   .form{
-	text-align: center;
+	 text-align: center;
+   line-height: 1;
+   position: absolute; 
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: #c79f50;
+  }
+
+  .disclaimer{
+    text-align: center;
     line-height: 1;
+    font-weight: 700;
     position: absolute; 
     left: 50%;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%, -50%);
     color: #c79f50;
   }
