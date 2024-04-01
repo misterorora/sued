@@ -57,12 +57,12 @@
 }
 
 .spotify {
-  margin-top: 20px; /* Add margin to create space between the iframe and the text */
+  margin-top: 20px;
   text-align: center;
 }
 
 .spotify p {
-  margin-top: 10px; /* Add margin to create space between the iframe and the paragraph text */
+  margin-top: 5px; /* Add margin to create space between the iframe and the paragraph text */
 }
 
 
