@@ -36,7 +36,7 @@
   }
 .text_block {
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
