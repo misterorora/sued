@@ -1,0 +1,28 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/announcements/[slug]": [
+		"src/routes/announcements/[slug]/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/contact": [
+		"src/routes/+layout.js"
+	],
+	"/gallery": [
+		"src/routes/+layout.js"
+	],
+	"/impressum": [
+		"src/routes/+layout.js"
+	],
+	"/rules": [
+		"src/routes/+layout.js"
+	],
+	"/teams": [
+		"src/routes/+layout.js"
+	],
+	"/training": [
+		"src/routes/+layout.js"
+	]
+}
