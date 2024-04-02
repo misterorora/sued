@@ -41,19 +41,22 @@
 
 <style>
   main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgba(255, 255, 255, 0.8); /* White transparent background */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
   }
 
   .impressum {
-    max-width: 800px; /* Adjust as needed */
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
-    text-align: left;
-  }
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.impressum:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: background-color 0.3s ease;
+}
 </style>  

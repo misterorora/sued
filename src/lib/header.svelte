@@ -4,7 +4,7 @@
     // empty
 </script>
 
-<div class="header">        <!-- adds Navbar to top of page, left the Home page, right the navigation -->
+<div class="header">        <!-- adds Navbar to top of page, left Home page, right  navigation -->
     <h1 class="home"><a href="/">Südstadt-Volleyball</a></h1>
     <nav>
         <ul>

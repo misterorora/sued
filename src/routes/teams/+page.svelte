@@ -1,5 +1,6 @@
 <main>
   <div class="text_block">
+    <h1> Wer sind wir? </h1>
     <div class="information">
       <p>Das Südstadtvolleyball ist eine Volleyballgruppe, die jeden Dienstag von 18:30 Uhr bis 21:30 Uhr stattfindet. Es findet im Herzen der Südstadt in der Turnhalle der KGS Rostock statt. Sie richtet sich an ambitionierte und interessierte Volleyballspieler. Dabei sind insgesamt zwei Sportgruppen vertreten: die Netzhüppers und die Sturmbälle!</p>
     </div>
@@ -20,18 +21,30 @@
     </div>
     <div class="spotify">
        <iframe style="border-radius:11px" src="https://open.spotify.com/embed/playlist/4e70rKjBB3L7Ca4m7rpkMs?utm_source=generator" width="450" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-       <p> Hör hier die offizielle Team-Playlist! </p>
+       <h5> Hör hier die offizielle Team-Playlist! </h5>
     </div>
   </div>
 </main>
 
 <style>
+
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
 .text_block {
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.text_block:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: background-color 0.3s ease;
 }
 
 .member {
@@ -62,7 +75,7 @@
 }
 
 .spotify p {
-  margin-top: 5px; /* Add margin to create space between the iframe and the paragraph text */
+  margin-top: 5px; 
 }
 
 
