@@ -3,9 +3,16 @@
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
 	],
+	"/announcements": [
+		"src/routes/announcements/+page.js",
+		"src/routes/+layout.js"
+	],
 	"/announcements/[slug]": [
 		"src/routes/announcements/[slug]/+page.js",
 		"src/routes/+layout.js"
+	],
+	"/api/posts": [
+		"src/routes/api/posts/+server.js"
 	],
 	"/contact": [
 		"src/routes/+layout.js"

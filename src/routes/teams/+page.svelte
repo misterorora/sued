@@ -20,7 +20,7 @@
       <a href="/contact" class="button">Mitglied werden!</a>
     </div>
     <div class="spotify">
-       <iframe style="border-radius:11px" src="https://open.spotify.com/embed/playlist/4e70rKjBB3L7Ca4m7rpkMs?utm_source=generator" width="450" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+       <iframe style="border-radius:11px" src="https://open.spotify.com/embed/playlist/4e70rKjBB3L7Ca4m7rpkMs?utm_source=generator" width="450" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="playlist"></iframe>
        <h5> Hör hier die offizielle Team-Playlist! </h5>
     </div>
   </div>
@@ -73,10 +73,5 @@
   margin-top: 20px;
   text-align: center;
 }
-
-.spotify p {
-  margin-top: 5px; 
-}
-
 
 </style>
