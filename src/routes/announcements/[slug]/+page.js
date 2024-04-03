@@ -1,12 +1,14 @@
 // src/routes/blog/[slug]/+page.js
-export async function load({ params }) {
-	const post = await import(`static/announcements_files/` + `${params.slug}.md`);
+export const load = async({ fetch, params }) => {
+	const response = await fetch('/api/stuff/' + params.slug);
+	const post = await response.json();
 	const { title, date } = post.metadata;
 	const content = post.default;
 
 	return {
 		content,
 		title,
-		date
+		date,
+		slug
 	};
-}
+};

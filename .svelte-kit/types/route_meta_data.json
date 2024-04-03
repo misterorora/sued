@@ -11,8 +11,11 @@
 		"src/routes/announcements/[slug]/+page.js",
 		"src/routes/+layout.js"
 	],
-	"/api/posts": [
-		"src/routes/api/posts/+server.js"
+	"/api/stuff": [
+		"src/routes/api/stuff/+server.js"
+	],
+	"/api/stuff/[slug]": [
+		"src/routes/api/stuff/[slug]/+server.js"
 	],
 	"/contact": [
 		"src/routes/+layout.js"
