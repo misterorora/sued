@@ -11,6 +11,9 @@
 		"src/routes/announcements/[slug]/+page.js",
 		"src/routes/+layout.js"
 	],
+	"/api/posts": [
+		"src/routes/api/posts/+server.js"
+	],
 	"/api/stuff": [
 		"src/routes/api/stuff/+server.js"
 	],
@@ -33,6 +36,27 @@
 		"src/routes/+layout.js"
 	],
 	"/training": [
+		"src/routes/+layout.js"
+	],
+	"/training/friday": [
+		"src/routes/+layout.js"
+	],
+	"/training/monday": [
+		"src/routes/+layout.js"
+	],
+	"/training/saturday": [
+		"src/routes/+layout.js"
+	],
+	"/training/sunday": [
+		"src/routes/+layout.js"
+	],
+	"/training/thursday": [
+		"src/routes/+layout.js"
+	],
+	"/training/tuesday": [
+		"src/routes/+layout.js"
+	],
+	"/training/wednesday": [
 		"src/routes/+layout.js"
 	]
 }
